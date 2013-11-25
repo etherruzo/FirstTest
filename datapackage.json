@@ -1,0 +1,40 @@
+{
+  "name": "a-unique-human-readable-and-url-usable-identifier",
+  "datapackage_version": "1.0-beta",
+  "title": "First test",
+  "description": "...",
+  "version": "2.0",
+  "keywords": ["name", "My new keyword"],
+  "licenses": [{
+    "url": "http://opendatacommons.org/licenses/pddl/",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  }]
+  "sources": [{
+    "name": "World Bank and OECD",
+    "web": "http://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+  }],
+  "contributors":[ {
+    "name": "Elena Tomás",
+    "email": "etomasherruzo@gmail.com",
+    "web": ""
+  }],
+  "maintainers": [{
+    # like contributors
+  }],
+  "publishers": [{
+    # like contributors
+  }],
+  "dependencies": {
+    "data-package-name": ">=1.0"
+  },
+  "resources": [
+    {
+      ... see below ...
+    }
+  ],
+  # this is an attribute that is not part of the data package spec
+  # you can add your own attributes to a datapackage.json
+  "my-own-attribute": "data-packages-are-awesome"
+}
